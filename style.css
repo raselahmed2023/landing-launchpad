@@ -1,0 +1,149 @@
+
+.font-raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* share btn */
+
+.btn{
+    background-color: rgba(78, 71, 255, 1);
+    font-style: Bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);;
+    border: none;
+    border-radius: 10px;
+    padding: 12px  36px;
+    cursor: pointer;
+}
+
+.btn2 , .btn3{
+    padding: 12px 36px;
+    /* margin-top: 37px; */
+    background-color: rgba(78, 71, 255, 1);
+    font-style: Bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header{
+    background-image: url(./Assets/Hero-bg.png);
+    width: 1550px;
+    height: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    
+}
+
+nav .logo h2{
+    font-size: 34px;
+    color: rgba(78, 71, 255, 1);
+}
+
+.header-info{
+display: flex;
+flex-direction: column;
+/* justify-content: flex-start; */
+align-items: center;
+}
+
+.header-title{
+    font-size: 65px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.section-one{
+    display: flex;
+    align-items: center;
+    margin-top: 116px;
+    justify-content: center;
+    gap: 220px;
+}
+
+.mini-img{
+    border-radius: 48px;
+    width: 400px;
+    height: 330px;
+}
+
+.section-one h2{
+    font-size: 42px;
+}
+
+.section-one p{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+
+.user-container, .card-user{
+    padding-top: 130px;
+}
+
+.user-card{
+    width: 1140px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 50px 80px 50px 80px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    margin: 0 auto;
+}
+
+.user-details{
+    font-size: 38px;
+
+}
+
+.user-info{
+    display: flex;
+    gap: 100px;
+}
+
+
+
+
+.user-star{
+    display: flex;
+}
+
+.card-info{
+    display: flex;
+}
+
+.name-user, .reviwer-name{
+    display: flex;
+}
+
+.name-user img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.name-user{
+    /* Info */
+width: 266.67px;
+height: 46px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 2;
+
+
+}
