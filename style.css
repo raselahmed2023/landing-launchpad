@@ -114,36 +114,80 @@ align-items: center;
 
 
 
+/* bug fixing */
+.section-three{
+    margin: 0 auto;
+    text-align: center;
+}
 
-.user-star{
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    border: 2px solid black;
+    gap: ;
+}
+
+.card details{
+    display: flex;
+   /
+   border: 2px solid black;
+   width: 366px;
+   height: 240px;
+    padding: 24px;
+    gap: 20px;
+}
+
+.class-reviwer{
+ 
     display: flex;
 }
 
-.card-info{
-    display: flex;
-}
-
-.name-user, .reviwer-name{
-    display: flex;
-}
-
-.name-user img{
+.class-reviwer img{
     width: 40px;
     height: 40px;
-
 }
 
+.date{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
 
-.name-user{
-    /* Info */
-width: 266.67px;
-height: 46px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 2;
+/* bug fixing */
 
+.resource{
+    padding-top: 100px;
+    width: 1000px;
+    height: 650px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 71px 150px;
+}
 
+.dev-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    /* padding: 71px 150px 71px 150px; */
+}
+
+.dev-resource{
+    align-items: center;
+    justify-content: center;
+    padding: 71px 200px;
+}
+
+.wc-mini{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 20px;
 }
