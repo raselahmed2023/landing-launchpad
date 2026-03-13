@@ -205,12 +205,32 @@ nav .logo h2 {
     margin: 0;
 }
 
-.what-title{
-    font-size:45px;
+.what-title {
+    font-size: 45px;
 }
 
-.info{
+.info {
     color: blue;
     margin: 0px;
     font-size: 70px;
+}
+
+.get-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.get-title {
+    font-size: 50px;
+}
+
+.get-form {
+    flex: 0 0 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
