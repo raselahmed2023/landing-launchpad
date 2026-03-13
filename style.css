@@ -3,6 +3,9 @@
     font-optical-sizing: auto;
 }
 
+body {
+    background: #eef0fb;
+}
 
 /* share btn */
 
@@ -29,15 +32,7 @@
     cursor: pointer;
 }
 
-footer {
-    border-top: 2px solid rgba(78, 71, 255, 1);
-    /* purple top border like screenshot */
-    display: flex;
-    justify-content: center;
-    padding: 60px 20px;
-}
-
-.gray{
+.gray {
     color: gray;
 }
 
@@ -277,9 +272,18 @@ nav .logo h2 {
 
 
 /* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background: #FFFFFF;
+}
+
 .footer-section {
     margin-top: 40px;
     max-width: 500px;
+    text-align: center;
     height: 220px;
     margin: 0 auto;
 }
