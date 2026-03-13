@@ -1,67 +1,70 @@
-
-.font-raleway{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
 }
 
 
 /* share btn */
 
-.btn{
+.btn {
     background-color: rgba(78, 71, 255, 1);
     font-style: Bold;
     font-size: 16px;
-    color: rgba(255, 255, 255, 1);;
+    color: rgba(255, 255, 255, 1);
+    ;
     border: none;
     border-radius: 10px;
-    padding: 12px  36px;
+    padding: 12px 36px;
     cursor: pointer;
 }
 
-.btn2 , .btn3{
+.btn2,
+.btn3 {
     padding: 12px 36px;
     /* margin-top: 37px; */
     background-color: rgba(78, 71, 255, 1);
     font-style: Bold;
     font-size: 16px;
-    color: rgba(255, 255, 255, 1);;
+    color: rgba(255, 255, 255, 1);
+    ;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
-header{
+header {
     background-image: url(./Assets/Hero-bg.png);
     width: 1550px;
     height: 700px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 150px;
-    
+
 }
 
-nav .logo h2{
+nav .logo h2 {
     font-size: 34px;
     color: rgba(78, 71, 255, 1);
 }
 
-.header-info{
-display: flex;
-flex-direction: column;
-/* justify-content: flex-start; */
-align-items: center;
+.header-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
 }
 
-.header-title{
+.header-title {
     font-size: 65px;
     text-align: center;
     justify-content: space-between;
 }
 
-.section-one{
+.section-one {
     display: flex;
     align-items: center;
     margin-top: 116px;
@@ -69,26 +72,27 @@ align-items: center;
     gap: 220px;
 }
 
-.mini-img{
+.mini-img {
     border-radius: 48px;
     width: 400px;
     height: 330px;
 }
 
-.section-one h2{
+.section-one h2 {
     font-size: 42px;
 }
 
-.section-one p{
+.section-one p {
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
 }
 
-.user-container, .card-user{
+.user-container,
+.card-user {
     padding-top: 130px;
 }
 
-.user-card{
+.user-card {
     width: 1140px;
     height: 306px;
     display: flex;
@@ -102,12 +106,12 @@ align-items: center;
     margin: 0 auto;
 }
 
-.user-details{
+.user-details {
     font-size: 38px;
 
 }
 
-.user-info{
+.user-info {
     display: flex;
     gap: 100px;
 }
@@ -115,50 +119,55 @@ align-items: center;
 
 
 /* bug fixing */
-.section-three{
+.section-three {
     margin: 0 auto;
     text-align: center;
 }
 
-.card{
+.card {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
+    gap: 24px;
     margin: 0 auto;
-    border: 2px solid black;
-    gap: ;
+    max-width: 1200px;
+    padding: 0 40px;
 }
 
-.card details{
+.card .details {
     display: flex;
-   /
-   border: 2px solid black;
-   width: 366px;
-   height: 240px;
-    padding: 24px;
-    gap: 20px;
+    flex-direction: column;
+    gap: 16px;
+    width: 340px;
+    flex-shrink: 0;
+    padding: 28px 24px;
+    border: 1.5px solid rgba(78, 71, 255, 0.18);
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 2px 16px rgba(78, 71, 255, 0.05);
+    text-align: left;
 }
 
-.class-reviwer{
- 
+.class-reviewer {
     display: flex;
+    gap: 10px;
+    margin-top: auto;
 }
 
-.class-reviwer img{
+.class-reviewer img {
     width: 40px;
     height: 40px;
+    border-radius: 999px;
 }
 
-.date{
+.date {
     display: flex;
     text-align: left;
     flex-direction: column;
 }
 
-/* bug fixing */
 
-.resource{
+.resource {
     padding-top: 100px;
     width: 1000px;
     height: 650px;
@@ -170,24 +179,28 @@ align-items: center;
     padding: 71px 150px;
 }
 
-.dev-info{
+.dev-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: center;
-    /* padding: 71px 150px 71px 150px; */
 }
 
-.dev-resource{
+.dev-resource {
     align-items: center;
     justify-content: center;
-    padding: 71px 200px;
+    padding: 30px 100px;
+    text-align: center;
 }
 
-.wc-mini{
+.wc-mini {
     width: 840px;
     height: 365px;
     border-radius: 48px;
     margin-top: 20px;
+}
+
+.titleHead {
+    margin: 0;
 }
