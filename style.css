@@ -204,3 +204,13 @@ nav .logo h2 {
 .titleHead {
     margin: 0;
 }
+
+.what-title{
+    font-size:45px;
+}
+
+.info{
+    color: blue;
+    margin: 0px;
+    font-size: 70px;
+}
