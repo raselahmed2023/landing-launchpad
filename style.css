@@ -11,7 +11,6 @@
     font-style: Bold;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
-    ;
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
@@ -21,16 +20,30 @@
 .btn2,
 .btn3 {
     padding: 12px 36px;
-    /* margin-top: 37px; */
     background-color: rgba(78, 71, 255, 1);
     font-style: Bold;
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
-    ;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
+
+footer {
+    border-top: 2px solid rgba(78, 71, 255, 1);
+    /* purple top border like screenshot */
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.gray{
+    color: gray;
+}
+
+/* common tags end here */
+
+
 
 header {
     background-image: url(./Assets/Hero-bg.png);
@@ -54,7 +67,6 @@ nav .logo h2 {
 .header-info {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: center;
 }
 
@@ -215,6 +227,8 @@ nav .logo h2 {
     font-size: 70px;
 }
 
+/* get info details */
+
 .get-info {
     display: flex;
     align-items: center;
@@ -259,4 +273,32 @@ nav .logo h2 {
     padding: 14px 16px;
     outline: none;
     transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
+/* footer section */
+.footer-section {
+    margin-top: 40px;
+    max-width: 500px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.footer-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-head {
+    font-size: 60px;
+    color: blue;
+    margin: 0px;
+
+}
+
+.footer-div a {
+    text-decoration: none;
+    color: gray;
 }
